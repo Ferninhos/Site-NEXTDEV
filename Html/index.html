@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <link rel="stylesheet" href="../Css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <img src="../Imagens/logo.png" alt="Logo" class="header-logo">
+    </div>
+    <nav class="header-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="separator">|</li>
+          <li><a href="#">Sobre</a></li>
+          <li class="separator">|</li>
+          <li><a href="#">Cursos</a></li>
+          <li class="separator">|</li>
+          <li><a href="#">Contato</a></li>
+          <li class="separator">|</li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <div id="hero">
+        <div class="background-image"></div>
+        <div class="text-container">
+            <h1>Aumente Seu Conhecimento</h1>
+            <p>Descubra Uma Ampla Variedade de Profissionais Para Ajudar Sua Carreira a Crescer.</p>
+            <div class="button-container">
+                <a href="#" class="view-courses-button colorful-button">Ver Cursos</a>
+            </div>
+        </div>
+    </div>
+    
+    <section id="instructors">
+      <h2>Conheça Nossos Instrutores</h2>
+
+      <div class="instructor-carousel">
+        <div id="carousel">
+          <button class="carousel-btn prev-btn" id="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+
+          <div id="instructorGrid" class="carousel-container">
+          </div>
+
+          <button class="carousel-btn next-btn" id="next">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 NEXTDEV. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="../JavaScript/script.js"></script>
+</body>
+</html>
